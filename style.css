@@ -1,34 +1,69 @@
-
-body{
+body {
   font-family: 'Lora', serif;
   margin: 0;
 }
 
-.navbar-nav{
+#top-section {
+  background-color: #fff;
+}
+
+.logo {
+  padding-top: 2%;
+}
+
+.col {
+  height: 100vh;
+  background-image: url(main.jpg);
+  background-position: cover;
+  background-size: cover;
+}
+
+.navbar-nav {
   padding: 1% 5%;
 }
 
-.nav-link{
+.nav-link {
   color: black;
   font-style: italic;
 }
 
-.first-call{
-  font-size: 20px;
-  text-decoration: none;
+.first-call {
+  font-size: 18px;
+  font-style: normal;
   color: black;
-  border: 1px solid black;
+  border: 1px solid grey;
   margin-right: 15px;
   transition: 1s;
 }
 
-.first-call:hover{
+.first-call:hover {
   font-style: italic;
-  font-size: 22px;
+  font-size: 20px;
   color: inherit;
 }
 
-.main-img{
+.main-img {
   width: 100%;
   margin: auto;
+}
+
+@media (max-width: 700px) {
+  .first-call {
+    border: none;
+  }
+
+  .main-img {
+    height: 50vh;
+  }
+
+  .col {
+    height: 80vh;
+    background-position: 85%;
+    background-size: cover;
+  }
+}
+
+/* testimonials section */
+#testimonials {
+  margin-top: 20px;
 }
