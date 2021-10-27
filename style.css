@@ -3,6 +3,21 @@ body {
   margin: 0;
 }
 
+hr{
+  border: 10px dotted;
+  border-style: none none dotted;
+  width: 7%;
+  margin: auto;
+  color: darkgrey;
+  background-color: inherit;
+}
+
+@media(max-width: 700px){
+  hr{
+    width: 20%;
+  }
+}
+
 #top-section {
   background-color: #fff;
 }
@@ -65,5 +80,28 @@ body {
 
 /* testimonials section */
 #testimonials {
-  margin-top: 20px;
+  margin: 60px auto;
+  width: 80%;
+}
+
+.col-md-6{
+  text-align: left;
+}
+
+.col-md-6 img{
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 8%;
+}
+
+.name{
+  font-style: italic;
+  padding-top: 3%;
+}
+
+/* services Section */
+
+#services {
+  margin: 60px auto;
+  width: 80%;
 }
