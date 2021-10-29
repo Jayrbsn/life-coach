@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-hr{
+hr {
   border: 10px dotted;
   border-style: none none dotted;
   width: 7%;
@@ -12,9 +12,13 @@ hr{
   background-color: inherit;
 }
 
-@media(max-width: 700px){
-  hr{
+@media(max-width: 700px) {
+  hr {
     width: 20%;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
 
@@ -24,6 +28,12 @@ hr{
 
 .logo {
   padding-top: 2%;
+  transition: 0.7s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  font-size: 44px;
 }
 
 .col {
@@ -84,24 +94,80 @@ hr{
   width: 80%;
 }
 
-.col-md-6{
+.col-md-6 {
   text-align: left;
 }
 
-.col-md-6 img{
+.col-md-6 img {
   width: 10%;
   border-radius: 100%;
   margin-top: 8%;
 }
 
-.name{
+.name {
   font-style: italic;
   padding-top: 3%;
 }
 
 /* services Section */
-
 #services {
   margin: 60px auto;
   width: 80%;
+}
+
+.services-heading {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 700px) {
+  .services-heading {
+    margin-bottom: 40px;
+  }
+}
+
+/* contact section */
+#contact-me {
+  width: 80%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+#contact-me h1 {
+  font-style: italic;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px 0 10px;
+  background-color: lightgrey;
+}
+
+.contact-p {
+  font-style: italic;
+}
+
+.btn-outline-dark {
+  margin-bottom: 15px;
+}
+
+.learn{
+  color: inherit;
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+.learn:hover{
+  color: inherit;
+  font-size: 18px;
+}
+
+
+/* about section */
+#about-ash {
+  background-color: lightgrey;
+}
+
+#about-ash h1 {
+  padding: 60px 0;
+  text-align: center;
 }
