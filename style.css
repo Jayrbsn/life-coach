@@ -241,3 +241,29 @@ hr {
     padding: 0 50px;
     }
   }
+
+
+  /* second footer */
+
+.footer-hr{
+  background: #808080;
+  height: 2px;
+  border: 0;
+  margin: 15px auto 15px;
+  width: 60%;
+}
+
+.footer-2{
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.footer-link-2{
+  color: grey;
+  text-decoration: none;
+}
+
+.footer-link-2:hover{
+  text-decoration: none;
+  color: grey;
+}
